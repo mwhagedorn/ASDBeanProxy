@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155B835CA9BBB38BD93A338B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		155B875E64ADC6B454E479CE /* ASDBeanProxy.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ASDBeanProxy.podspec; sourceTree = "<group>"; };
 		3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDBeanProxy.xcconfig"; path = "Pods/Pods-ASDBeanProxy.xcconfig"; sourceTree = "<group>"; };
 		AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ASDBeanProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +81,7 @@
 				AF629DAD199DAD2800D7E666 /* Products */,
 				3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */,
 				155B875E64ADC6B454E479CE /* ASDBeanProxy.podspec */,
+				155B835CA9BBB38BD93A338B /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
