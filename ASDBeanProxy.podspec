@@ -5,8 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/mwhagedorn/ASDBeanProxy"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Mike Hagedorn" => "mike@silverchairsolutions.com" }
-  s.source       = { :git => "https://github.com/mwhagedorn/ASDBeanProxy"  }
+  s.source       = { :git => "https://github.com/mwhagedorn/ASDBeanProxy.git"  }
   s.osx.deployment_target = '10.9'
   s.source_files = 'ASDBeanProxy/**/*.{h,m}'
   s.requires_arc = true
+  s.dependency 'Bean-iOS-OSX-SDK'
 end

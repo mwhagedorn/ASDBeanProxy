@@ -4,7 +4,7 @@ platform :osx, '10.9'
 
 
 
-target "ASDBeanProxy" do
+target "ASDBeanProxy1" do
     pod 'Bean-iOS-OSX-SDK'
 end
 

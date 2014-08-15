@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155B833B5D8A20C56D5A5376 /* ASDBeanProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 155B80E7ACD2CCBB1A38B638 /* ASDBeanProxy.h */; };
+		155B8997A4DEA14F0755CB37 /* ASDBeanProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 155B87DE7EC400DA933BEFBC /* ASDBeanProxy.m */; };
 		AF629DB0199DAD2800D7E666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAF199DAD2800D7E666 /* Cocoa.framework */; };
-		AF629DBA199DAD2800D7E666 /* ASDBeanProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */; };
+		AF629DBA199DAD2800D7E666 /* ASDBeanProxy1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF629DB9199DAD2800D7E666 /* ASDBeanProxy1.m */; };
 		AF629DC1199DAD2800D7E666 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DC0199DAD2800D7E666 /* XCTest.framework */; };
 		AF629DC2199DAD2800D7E666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAF199DAD2800D7E666 /* Cocoa.framework */; };
 		AF629DC5199DAD2800D7E666 /* ASDBeanProxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */; };
@@ -28,7 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155B80E7ACD2CCBB1A38B638 /* ASDBeanProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDBeanProxy.h; sourceTree = "<group>"; };
 		155B875E64ADC6B454E479CE /* ASDBeanProxy.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ASDBeanProxy.podspec; sourceTree = "<group>"; };
+		155B87DE7EC400DA933BEFBC /* ASDBeanProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxy.m; sourceTree = "<group>"; };
 		3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDBeanProxy.xcconfig"; path = "Pods/Pods-ASDBeanProxy.xcconfig"; sourceTree = "<group>"; };
 		AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ASDBeanProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF629DAF199DAD2800D7E666 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -36,8 +40,8 @@
 		AF629DB3199DAD2800D7E666 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AF629DB4199DAD2800D7E666 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AF629DB7199DAD2800D7E666 /* ASDBeanProxy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASDBeanProxy-Prefix.pch"; sourceTree = "<group>"; };
-		AF629DB8199DAD2800D7E666 /* ASDBeanProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASDBeanProxy.h; sourceTree = "<group>"; };
-		AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxy.m; sourceTree = "<group>"; };
+		AF629DB8199DAD2800D7E666 /* ASDBeanProxy1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASDBeanProxy1.h; sourceTree = "<group>"; };
+		AF629DB9199DAD2800D7E666 /* ASDBeanProxy1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxy1.m; sourceTree = "<group>"; };
 		AF629DBF199DAD2800D7E666 /* ASDBeanProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDBeanProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF629DC0199DAD2800D7E666 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF629DC8199DAD2800D7E666 /* ASDBeanProxyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASDBeanProxyTests-Info.plist"; sourceTree = "<group>"; };
@@ -116,9 +120,11 @@
 		AF629DB5199DAD2800D7E666 /* ASDBeanProxy */ = {
 			isa = PBXGroup;
 			children = (
-				AF629DB8199DAD2800D7E666 /* ASDBeanProxy.h */,
-				AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */,
+				AF629DB8199DAD2800D7E666 /* ASDBeanProxy1.h */,
+				AF629DB9199DAD2800D7E666 /* ASDBeanProxy1.m */,
 				AF629DB6199DAD2800D7E666 /* Supporting Files */,
+				155B87DE7EC400DA933BEFBC /* ASDBeanProxy.m */,
+				155B80E7ACD2CCBB1A38B638 /* ASDBeanProxy.h */,
 			);
 			path = ASDBeanProxy;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155B833B5D8A20C56D5A5376 /* ASDBeanProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF629DBA199DAD2800D7E666 /* ASDBeanProxy.m in Sources */,
+				AF629DBA199DAD2800D7E666 /* ASDBeanProxy1.m in Sources */,
+				155B8997A4DEA14F0755CB37 /* ASDBeanProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
