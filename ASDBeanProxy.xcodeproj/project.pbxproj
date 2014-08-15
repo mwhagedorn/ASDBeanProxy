@@ -14,6 +14,7 @@
 		AF629DC5199DAD2800D7E666 /* ASDBeanProxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */; };
 		AF629DCB199DAD2800D7E666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF629DC9199DAD2800D7E666 /* InfoPlist.strings */; };
 		AF629DCD199DAD2800D7E666 /* ASDBeanProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF629DCC199DAD2800D7E666 /* ASDBeanProxyTests.m */; };
+		D7702C134B1841E79DA6B25C /* libPods-ASDBeanProxy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8752292232B466D804E68BA /* libPods-ASDBeanProxy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155B875E64ADC6B454E479CE /* ASDBeanProxy.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ASDBeanProxy.podspec; sourceTree = "<group>"; };
+		3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDBeanProxy.xcconfig"; path = "Pods/Pods-ASDBeanProxy.xcconfig"; sourceTree = "<group>"; };
 		AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ASDBeanProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF629DAF199DAD2800D7E666 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AF629DB2199DAD2800D7E666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,6 +43,8 @@
 		AF629DC8199DAD2800D7E666 /* ASDBeanProxyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASDBeanProxyTests-Info.plist"; sourceTree = "<group>"; };
 		AF629DCA199DAD2800D7E666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF629DCC199DAD2800D7E666 /* ASDBeanProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxyTests.m; sourceTree = "<group>"; };
+		AF629DD6199DADAC00D7E666 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D8752292232B466D804E68BA /* libPods-ASDBeanProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASDBeanProxy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF629DB0199DAD2800D7E666 /* Cocoa.framework in Frameworks */,
+				D7702C134B1841E79DA6B25C /* libPods-ASDBeanProxy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,10 +73,13 @@
 		AF629DA3199DAD2800D7E666 = {
 			isa = PBXGroup;
 			children = (
+				AF629DD6199DADAC00D7E666 /* Podfile */,
 				AF629DB5199DAD2800D7E666 /* ASDBeanProxy */,
 				AF629DC6199DAD2800D7E666 /* ASDBeanProxyTests */,
 				AF629DAE199DAD2800D7E666 /* Frameworks */,
 				AF629DAD199DAD2800D7E666 /* Products */,
+				3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */,
+				155B875E64ADC6B454E479CE /* ASDBeanProxy.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +98,7 @@
 				AF629DAF199DAD2800D7E666 /* Cocoa.framework */,
 				AF629DC0199DAD2800D7E666 /* XCTest.framework */,
 				AF629DB1199DAD2800D7E666 /* Other Frameworks */,
+				D8752292232B466D804E68BA /* libPods-ASDBeanProxy.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF629DD0199DAD2800D7E666 /* Build configuration list for PBXNativeTarget "ASDBeanProxy" */;
 			buildPhases = (
+				C47593E89B474D30A16E8FE0 /* Check Pods Manifest.lock */,
 				AF629DA8199DAD2800D7E666 /* Sources */,
 				AF629DA9199DAD2800D7E666 /* Frameworks */,
 				AF629DAA199DAD2800D7E666 /* Headers */,
+				367FE7C9C6D94ACF90EAC18E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +223,8 @@
 			mainGroup = AF629DA3199DAD2800D7E666;
 			productRefGroup = AF629DAD199DAD2800D7E666 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				AF629DAB199DAD2800D7E666 /* ASDBeanProxy */,
@@ -229,6 +243,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		367FE7C9C6D94ACF90EAC18E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ASDBeanProxy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47593E89B474D30A16E8FE0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF629DA8199DAD2800D7E666 /* Sources */ = {
@@ -341,6 +388,7 @@
 		};
 		AF629DD1199DAD2800D7E666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -352,6 +400,7 @@
 		};
 		AF629DD2199DAD2800D7E666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4AE02E7617494081C100BB /* Pods-ASDBeanProxy.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
