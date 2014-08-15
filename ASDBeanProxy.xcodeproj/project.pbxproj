@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF629DB0199DAD2800D7E666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAF199DAD2800D7E666 /* Cocoa.framework */; };
+		AF629DBA199DAD2800D7E666 /* ASDBeanProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */; };
+		AF629DC1199DAD2800D7E666 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DC0199DAD2800D7E666 /* XCTest.framework */; };
+		AF629DC2199DAD2800D7E666 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAF199DAD2800D7E666 /* Cocoa.framework */; };
+		AF629DC5199DAD2800D7E666 /* ASDBeanProxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */; };
+		AF629DCB199DAD2800D7E666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF629DC9199DAD2800D7E666 /* InfoPlist.strings */; };
+		AF629DCD199DAD2800D7E666 /* ASDBeanProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF629DCC199DAD2800D7E666 /* ASDBeanProxyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF629DC3199DAD2800D7E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF629DA4199DAD2800D7E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF629DAB199DAD2800D7E666;
+			remoteInfo = ASDBeanProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ASDBeanProxy.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF629DAF199DAD2800D7E666 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF629DB2199DAD2800D7E666 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF629DB3199DAD2800D7E666 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF629DB4199DAD2800D7E666 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AF629DB7199DAD2800D7E666 /* ASDBeanProxy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASDBeanProxy-Prefix.pch"; sourceTree = "<group>"; };
+		AF629DB8199DAD2800D7E666 /* ASDBeanProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASDBeanProxy.h; sourceTree = "<group>"; };
+		AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxy.m; sourceTree = "<group>"; };
+		AF629DBF199DAD2800D7E666 /* ASDBeanProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDBeanProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF629DC0199DAD2800D7E666 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF629DC8199DAD2800D7E666 /* ASDBeanProxyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASDBeanProxyTests-Info.plist"; sourceTree = "<group>"; };
+		AF629DCA199DAD2800D7E666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF629DCC199DAD2800D7E666 /* ASDBeanProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDBeanProxyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF629DA9199DAD2800D7E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF629DB0199DAD2800D7E666 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF629DBC199DAD2800D7E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF629DC2199DAD2800D7E666 /* Cocoa.framework in Frameworks */,
+				AF629DC1199DAD2800D7E666 /* XCTest.framework in Frameworks */,
+				AF629DC5199DAD2800D7E666 /* ASDBeanProxy.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF629DA3199DAD2800D7E666 = {
+			isa = PBXGroup;
+			children = (
+				AF629DB5199DAD2800D7E666 /* ASDBeanProxy */,
+				AF629DC6199DAD2800D7E666 /* ASDBeanProxyTests */,
+				AF629DAE199DAD2800D7E666 /* Frameworks */,
+				AF629DAD199DAD2800D7E666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF629DAD199DAD2800D7E666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */,
+				AF629DBF199DAD2800D7E666 /* ASDBeanProxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF629DAE199DAD2800D7E666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DAF199DAD2800D7E666 /* Cocoa.framework */,
+				AF629DC0199DAD2800D7E666 /* XCTest.framework */,
+				AF629DB1199DAD2800D7E666 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF629DB1199DAD2800D7E666 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DB2199DAD2800D7E666 /* Foundation.framework */,
+				AF629DB3199DAD2800D7E666 /* CoreData.framework */,
+				AF629DB4199DAD2800D7E666 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AF629DB5199DAD2800D7E666 /* ASDBeanProxy */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DB8199DAD2800D7E666 /* ASDBeanProxy.h */,
+				AF629DB9199DAD2800D7E666 /* ASDBeanProxy.m */,
+				AF629DB6199DAD2800D7E666 /* Supporting Files */,
+			);
+			path = ASDBeanProxy;
+			sourceTree = "<group>";
+		};
+		AF629DB6199DAD2800D7E666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DB7199DAD2800D7E666 /* ASDBeanProxy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF629DC6199DAD2800D7E666 /* ASDBeanProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DCC199DAD2800D7E666 /* ASDBeanProxyTests.m */,
+				AF629DC7199DAD2800D7E666 /* Supporting Files */,
+			);
+			path = ASDBeanProxyTests;
+			sourceTree = "<group>";
+		};
+		AF629DC7199DAD2800D7E666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF629DC8199DAD2800D7E666 /* ASDBeanProxyTests-Info.plist */,
+				AF629DC9199DAD2800D7E666 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF629DAA199DAD2800D7E666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF629DAB199DAD2800D7E666 /* ASDBeanProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF629DD0199DAD2800D7E666 /* Build configuration list for PBXNativeTarget "ASDBeanProxy" */;
+			buildPhases = (
+				AF629DA8199DAD2800D7E666 /* Sources */,
+				AF629DA9199DAD2800D7E666 /* Frameworks */,
+				AF629DAA199DAD2800D7E666 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASDBeanProxy;
+			productName = ASDBeanProxy;
+			productReference = AF629DAC199DAD2800D7E666 /* ASDBeanProxy.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AF629DBE199DAD2800D7E666 /* ASDBeanProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF629DD3199DAD2800D7E666 /* Build configuration list for PBXNativeTarget "ASDBeanProxyTests" */;
+			buildPhases = (
+				AF629DBB199DAD2800D7E666 /* Sources */,
+				AF629DBC199DAD2800D7E666 /* Frameworks */,
+				AF629DBD199DAD2800D7E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF629DC4199DAD2800D7E666 /* PBXTargetDependency */,
+			);
+			name = ASDBeanProxyTests;
+			productName = ASDBeanProxyTests;
+			productReference = AF629DBF199DAD2800D7E666 /* ASDBeanProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF629DA4199DAD2800D7E666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = appsdynamic;
+				TargetAttributes = {
+					AF629DBE199DAD2800D7E666 = {
+						TestTargetID = AF629DAB199DAD2800D7E666;
+					};
+				};
+			};
+			buildConfigurationList = AF629DA7199DAD2800D7E666 /* Build configuration list for PBXProject "ASDBeanProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF629DA3199DAD2800D7E666;
+			productRefGroup = AF629DAD199DAD2800D7E666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF629DAB199DAD2800D7E666 /* ASDBeanProxy */,
+				AF629DBE199DAD2800D7E666 /* ASDBeanProxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF629DBD199DAD2800D7E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF629DCB199DAD2800D7E666 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF629DA8199DAD2800D7E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF629DBA199DAD2800D7E666 /* ASDBeanProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF629DBB199DAD2800D7E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF629DCD199DAD2800D7E666 /* ASDBeanProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF629DC4199DAD2800D7E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF629DAB199DAD2800D7E666 /* ASDBeanProxy */;
+			targetProxy = AF629DC3199DAD2800D7E666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF629DC9199DAD2800D7E666 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF629DCA199DAD2800D7E666 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF629DCE199DAD2800D7E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF629DCF199DAD2800D7E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF629DD1199DAD2800D7E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASDBeanProxy/ASDBeanProxy-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF629DD2199DAD2800D7E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASDBeanProxy/ASDBeanProxy-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF629DD4199DAD2800D7E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASDBeanProxy.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASDBeanProxy/ASDBeanProxy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ASDBeanProxyTests/ASDBeanProxyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AF629DD5199DAD2800D7E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASDBeanProxy.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASDBeanProxy/ASDBeanProxy-Prefix.pch";
+				INFOPLIST_FILE = "ASDBeanProxyTests/ASDBeanProxyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF629DA7199DAD2800D7E666 /* Build configuration list for PBXProject "ASDBeanProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF629DCE199DAD2800D7E666 /* Debug */,
+				AF629DCF199DAD2800D7E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF629DD0199DAD2800D7E666 /* Build configuration list for PBXNativeTarget "ASDBeanProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF629DD1199DAD2800D7E666 /* Debug */,
+				AF629DD2199DAD2800D7E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF629DD3199DAD2800D7E666 /* Build configuration list for PBXNativeTarget "ASDBeanProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF629DD4199DAD2800D7E666 /* Debug */,
+				AF629DD5199DAD2800D7E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF629DA4199DAD2800D7E666 /* Project object */;
+}
