@@ -5,7 +5,7 @@ platform :osx, '10.9'
 
 
 target "ASDBeanProxy" do
-    pod 'Bean-iOS-OSX-SDK'
+    pod 'Bean-iOS-OSX-SDK',:submodules => true
 end
 
 target "ASDBeanProxyTests" do
