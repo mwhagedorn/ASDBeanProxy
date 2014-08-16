@@ -110,7 +110,7 @@ NSString * const ASDBeanFoundNotification = @"ASDBeanFound";
     if (self.delegate != nil && [self.delegate respondsToSelector:@selector(didUpdateDiscoveredBeans:withBean:)]) {
       [self.delegate didUpdateDiscoveredBeans:[self discoveredBeans] withBean:bean];
     }
-
+    [self connectToBean:bean];
     [[NSNotificationCenter defaultCenter] postNotificationName:ASDBeanFoundNotification object:bean];
 
   }
